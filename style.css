@@ -83,7 +83,7 @@ img {
     width: 25px;
 }
 
-menu label {
+.menu label {
     cursor: pointer;
     display: none;
 }
@@ -269,10 +269,11 @@ hr {
 
 
 input {
+    display: block;
     padding: 17px;
     background-color: transparent;
     border: 1px solid #979797;
-    width: 500px;
+    width: 350px;
     font-size: 17px;
     color: #FFFFFF;
     margin-bottom: 25px;
@@ -282,18 +283,13 @@ input {
     color: #898989;
 }
 
-.information-img-1 {
+.information-img {
     height: 100%;
     flex-basis: 50%;
 }
 
-.information-img-2 {
-    flex-basis: 55%;
-    height: 100%;
-}
-
 .service {
-    margin: 50px 50px;
+    margin: 50px 0px;
     display:  flex;
     align-items: center;
 
@@ -387,7 +383,7 @@ input {
     }
 
     .menu label {
-        display: initial;
+        display: flex;
     }
 
     .menu .navbar {
